@@ -1,3 +1,4 @@
+"use client";
 import { FunctionComponent, PropsWithChildren } from "react";
 import classNames from "classnames";
 

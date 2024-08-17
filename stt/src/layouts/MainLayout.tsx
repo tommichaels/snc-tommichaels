@@ -1,3 +1,4 @@
+"use client";
 import { FunctionComponent, PropsWithChildren } from "react";
 import { Inter } from "next/font/google";
 import classNames from "classnames";

@@ -21,4 +21,12 @@ model User {
   title              String @db.VarChar(100)
   followers          Int
   following          Int
+  companies        Company[]
+
+}
+
+model Company {
+  id                 Int    @id @default(autoincrement())
+  name               String @db.VarChar(100)
+  users     User[]
 }

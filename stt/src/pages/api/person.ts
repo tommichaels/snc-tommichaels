@@ -1,3 +1,5 @@
+
+"use client"
 import { NextApiHandler, NextApiRequest, NextApiResponse } from "next";
 import { Person } from "@/utils/common/person";
 import { getPersonFromDB } from "@/utils/server/db";
