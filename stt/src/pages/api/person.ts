@@ -11,10 +11,10 @@ const getPerson: NextApiHandler = async (req, res) => {
 
   switch (person) {
     case Person.PersonA:
-      await sleep(1000); 
+      await sleep(1000);
       break;
     case Person.PersonB:
-      await sleep(3000); 
+      await sleep(3000);
       break;
     case Person.PersonC:
       res.status(500).send("Error: Request failed for Person C");
@@ -34,7 +34,7 @@ const getPerson: NextApiHandler = async (req, res) => {
     }
   } catch (error) {
     console.error("Error retrieving user:", error);
-    res.status(500).send("Error: Request failed"); 
+    res.status(500).send("Error: Request failed");
   }
 
   res.end();
