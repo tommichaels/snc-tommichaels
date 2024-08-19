@@ -1,4 +1,4 @@
-# Seven Sigms Group (SSG) Full-stack developer Assessment Test
+# Seven Sigma Group (SSG) Full-stack developer Assessment Test
 
 ### Primary Languages and Tools:
 This assessment by Seven Sigma Group (SSG) was for the Full-Stack Developer role. The documentation and supporting materials were of pristine quality, enabling me to implement all the required functionalities, along with some optional ones. This application showcases a Next.js full-stack solution that displays user details one at a time when selected, along with a timestamp indicating when the details were requested. Below are the core features of the application, along with a link to view it.
