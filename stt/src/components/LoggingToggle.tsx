@@ -32,7 +32,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
       backgroundColor: theme.palette.mode === 'dark' ? '#8796A5' : '#C70039',
       borderRadius: 20 / 2,
     },
-  }));
+}));
   
 
 export const LoggingToggle: FunctionComponent = () => {
