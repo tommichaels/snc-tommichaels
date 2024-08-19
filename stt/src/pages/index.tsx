@@ -1,3 +1,4 @@
+"use client"
 import { MainLayout } from "@/layouts/MainLayout";
 import { NextPage } from "next";
 

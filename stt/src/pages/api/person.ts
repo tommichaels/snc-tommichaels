@@ -24,11 +24,16 @@ const getPerson: NextApiHandler = async (req, res) => {
       return;
   }
 
-  const user = await getPersonFromDB(person);
+  try {
+    const user = await getPersonFromDB(person);
 
-  if (user) {
-    res.status(200).json(user);
-  } else {
+    if (user) {
+      res.status(200).json(user);
+    } else {
+      res.status(404).send("Error: User not found"); 
+    }
+  } catch (error) {
+    console.error("Error retrieving user:", error);
     res.status(500).send("Error: Request failed");
   }
 
@@ -46,4 +51,5 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
       });
   }
 };
+
 export default handler;
