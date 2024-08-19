@@ -26,8 +26,6 @@ export const MainLayout: FunctionComponent<
   const { enableLogs } = useLogContext();
   const [loading, setLoading] = useState<boolean>(false);
   const [hasError, setHasError] = useState<boolean>(false);
-
-
   const [activePerson, setActivePerson] = useState<Person | null>(null);
 
 
@@ -44,8 +42,8 @@ export const MainLayout: FunctionComponent<
 
   const handleFetchError = (data: any) => {
     setPersonData(data);
-    setHasError(true); // Set error state on fetch failure
-    setLoading(false); // Reset loading state
+    setHasError(true); 
+    setLoading(false); 
   };
 
   useLogPersonDetails(personData, currentTime, enableLogs);
