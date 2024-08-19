@@ -28,5 +28,5 @@ export const Timer = ({ onTimeChange }: TimerProps) => {
     return () => clearInterval(intervalId);
   }, [onTimeChange]);
 
-  return <div className="mt-4 text-lg">Current Time: {currentTime}</div>;
+  return <div className="mt-4 text-lg font-semibold text-gray-700">Current Time: {currentTime}</div>;
 };
