@@ -11,7 +11,7 @@ const ResponseSnackbar: React.FC<ResponseSnackbarProps> = ({ message, isOpen, on
   useEffect(() => {
     if (isOpen) {
       const timer = setTimeout(() => {
-        onClose();
+        onClose(); //close the snackbar after this designated time
       }, 800);
       return () => clearTimeout(timer);
     }
