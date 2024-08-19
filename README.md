@@ -1,11 +1,13 @@
 # Seven Sigms Group (SSG) Full-stack developer Assessment Test
 
 ### Primary Languages and Tools:
-"This assessment by Seven Sigma Group (SSG) was for the Full-Stack Developer role. The documentation and supporting materials were of pristine quality, enabling me to implement all the required functionalities, along with some optional ones. This application showcases a Next.js full-stack solution that displays user details one at a time when selected, along with a timestamp indicating when the details were requested. Below are the core features of the application, along with a link to view it."
+This assessment by Seven Sigma Group (SSG) was for the Full-Stack Developer role. The documentation and supporting materials were of pristine quality, enabling me to implement all the required functionalities, along with some optional ones. This application showcases a Next.js full-stack solution that displays user details one at a time when selected, along with a timestamp indicating when the details were requested. Below are the core features of the application, along with a link to view it.
 
 ### Summary
 
-#### Frontend Implementation:
+### Frontend Implementation:
+
+#### Check out the app [here!](https://snc-tommichaels.vercel.app/)
 
 1. **Button Selection Functionality**:
    - I implemented a feature where initially no buttons are selected.
@@ -71,8 +73,7 @@
    - And I created necessary migration files for these changes.
 
 9. **Deployment to Vercel**:
-   - Finally, I deployed the app to Vercel with the main branch set as production and the develop branch as staging.
-
+   - Finally, I deployed [the app](https://snc-tommichaels.vercel.app/) to Vercel with the main branch set as production and the develop branch as staging.
 All the described features have been fully implemented.
 
 
