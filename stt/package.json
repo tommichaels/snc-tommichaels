@@ -7,13 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "vercel-build": "prisma generate && prisma migrate deploy && next build"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.7",
     "@prisma/client": "^5.10.2",
+    "@vercel/postgres": "^0.9.0",
     "classnames": "^2.5.1",
     "next": "14.1.0",
     "prettier": "^3.2.4",
