@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineExclamationCircle } from "react-icons/ai"; // Import an error SVG icon
+import { AiOutlineExclamationCircle } from "react-icons/ai";
 
 const ProfileCardError: React.FC = () => {
   return (
